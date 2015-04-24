@@ -1,7 +1,7 @@
 module Gosu
   module Tiled
     class Map
-      attr_reader :tilesets, :layers, :width, :height
+      attr_reader :tilesets, :layers, :width, :height, :data
 
       def initialize(window, data, data_dir)
         @window = window
