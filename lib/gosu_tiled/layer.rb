@@ -1,6 +1,7 @@
 module Gosu
   module Tiled
     class Layer
+      attr_reader :data
       def initialize(window, data, options)
         @window = window
         @data = data
